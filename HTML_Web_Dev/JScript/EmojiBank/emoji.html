@@ -1,0 +1,38 @@
+<!-- An Emoji Bank which will display any one of five
+     different emojis when typed in by the user. This
+     is a simple example of JS -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Practice</title>
+  <!-- link your CSS and JS files here -->
+  <script defer src="emoji.js"></script>
+  <link href="emojiLight.css" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Emoji bank!</h1>
+  <!-- Replace the "???" in the <p> below with 5 emoji choices -->
+  <p>Available emojis: grinning, crying, heart, dog, cherry blossom</p>
+  <center>
+    <div>
+      <input id="emoji-text" type="text" required size="20">
+      <button id="show-button">Show me!</button>
+      <button id="mode">darkmode</button>
+    </div>
+    
+  </center>
+
+ 
+
+  <div id="output-emoji">
+    <!-- Display the emoji chosen in this <span> -->
+    <span id="output"></span>
+  </div>
+</body>
+
+</html>

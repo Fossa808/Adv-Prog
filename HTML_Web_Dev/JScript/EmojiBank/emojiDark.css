@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(57, 12, 75);
+    font: +25px 'Marker Felt', fantasy;
+
+}
+h1{
+    text-align: center;
+    color: rgb(186, 166, 225);
+}
+p {
+    text-align: center;
+    color: rgb(186, 166, 225);
+}
+#input-content{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+input{
+    font-size: +20px;
+    font-family: cursive;
+    color:rgb(57, 12, 75);
+    background-color: rgb(227, 191, 245);
+}
+span {
+    font-size: 300px;
+}
+#output-emoji{
+    text-align: center;
+}
+button{
+    background-color: rgb(43, 12, 71);
+    font-family:'Courier New', Courier, monospace;
+    font-size: +20px;
+    color: rgb(227, 191, 245);
+    border-color: rgb(227, 191, 245);
+
+}
